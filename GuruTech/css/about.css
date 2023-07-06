@@ -1,0 +1,240 @@
+.navcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  padding-right: 20px;
+  color: white;
+  /* position: fixed; */
+  /* z-index: 1; */
+}
+
+.logocontainer img {
+  height: 50px;
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: white;
+  padding: 10px 15px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  /* color: black; */
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-nav{
+    background-color: black;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+.navbar-nav li{
+    margin-left: 20px;
+    /* background-color: black; */
+}
+.navbar-nav ul{
+    background-color: black;
+}
+
+
+.image-container {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.image-container img{
+    width: 100%;
+    /* height: 0; */
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%);
+    /* text-align: center; */
+    color: #fff;
+}
+
+/* .content h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+} */
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.guruTc{
+    background-color: white;
+}
+.CapGuru div{
+    margin-left: 15px;
+}
+.settingCon{
+    display: flex;
+    align-items: center;
+}
+.settingCon img{
+    width: 30%;
+    margin-left: 180px;
+    height: 400px;
+}
+
+.settin{
+    margin: 15px;
+    margin-bottom: 120px;
+
+}
+.crafingcon{
+    display: flex;
+    align-items: center;
+}
+.craftText{
+    /* margin: 15px; */
+    margin-bottom: 150px;
+    margin-left: 190px;
+    margin-top: 90px;
+}
+.crafingcon img{
+    width: 30%;
+    margin-right: 150px;
+    height: 400px;
+}
+.successCon{
+    display: flex;
+    align-items: center;
+}
+.successCon img{
+    width: 30%;
+    margin-left: 180px;
+    height: 400px;
+}
+.sucessText{
+    margin: 15px;
+    margin-bottom: 120px;
+}
+.yourJourney{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.yourJourney h2{
+  font-size: 30px;
+}
+.yourJourney button{
+  padding: 25px;
+  background-color: #0080009c;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  margin-top: 40px;
+  width: 100%; 
+  height: 70%;}
+.meetus{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+}
+.linkss{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.meetus div{
+  margin-right: 50px;
+  margin-top: 49px;
+}
+
+.linkss a{
+  margin-bottom: 10px;
+}
+  .linkss span{
+    margin-left: 40px;
+
+  }
+
+  .quick-links a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+  }
+  .other-links a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+  }
+  .footer input{
+    border-radius: 12px;
+    padding: 16px;
+    width: 30%;
+    background-color: #0000009f;
+    outline: none;
+    position: relative;
+  }
+  .footer i{
+    position: absolute;
+    margin-bottom: 32%;
+    margin-left: 25%;
+    font-size: 20px;
+    color: white;
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: black;
+    height: 50%;
+  }
+  footer p{
+    color: white;
+  }
+  hr{
+    height: 0;
+    width: 79%;
+    color: #ffffffe5;
+  }
+  .social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+  }
+  .social p{
+    margin-right: 31px;
+  }
+  footer span{
+    color: white;
+    margin-right: 140px;
+  }

@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.logocontainer img {
+  height: 50px;
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: white;
+  padding: 10px 15px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  /* color: black; */
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-nav{
+    background-color: black;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+.navbar-nav li{
+    margin-left: 20px;
+    /* background-color: black; */
+}
+.navbar-nav ul{
+    background-color: black;
+}
+
+.Team-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.imgTeam{
+    position: relative;
+    
+}
+.TeamText{
+    position: absolute;
+    top: 35%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.TeamText h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+.TeamText p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.center-imageS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.center-imageS .imageContainer {
+    width: 50%;
+    height: 80%;
+    /* margin-bottom: 10%; */
+}
+
+.center-imageS .imageContainer img {
+    width: 100%;
+    display: none;
+}
+
+.center-imageS .imageContainer img.active {
+    display: block;
+}
+
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image.active {
+    opacity: 1;
+}
+
+.dotContainer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: black;
+}
+.center-imageS .sliderText {
+    text-align: center;
+    margin-top: 15px;
+}
+.sliderText button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  margin-top: 40px;
+  width: 100%; 
+  height: 70%;
+}
+.meetus{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* flex-direction: row; */
+}
+.linkss{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.meetus div{
+  margin-right: 50px;
+  margin-top: 49px;
+}
+
+.linkss a{
+  margin-bottom: 10px;
+}
+.linkss span{
+    margin-left: 40px;
+
+  }
+
+  .quick-links a {
+    outline: none;
+    text-decoration: none;
+    color: white;
+  }
+  .other-links a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+  }
+  .footer input{
+    border-radius: 12px;
+    padding: 16px;
+    width: 30%;
+    background-color: #0000009f;
+    outline: none;
+    position: relative;
+  }
+  .footer i{
+    position: absolute;
+    margin-bottom: 34%;
+    margin-left: 25%;
+    margin-top: -37px;
+    font-size: 20px;
+    color: white;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: black;
+    height: 50%;
+  }
+  footer p{
+    color: white;
+  }
+  hr{
+    height: 0;
+    width: 79%;
+    color: #ffffffe5;
+  }
+  .social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+  }
+  .social p{
+    margin-right: 31px;
+  }
+  footer span{
+    color: white;
+    margin-right: 140px;
+  }    
