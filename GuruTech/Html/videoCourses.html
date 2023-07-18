@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuruTechnology</title>
+    <link rel="stylesheet" href="/GuruTech/css/videoCourses.css">
+</head>
+
+<body>
+    <h1>Video To-Do List</h1>
+
+    <form id="taskForm">
+        <div class="form-group">
+            <label for="taskTitle">Course Title</label>
+            <input type="text" id="courseTitle" required>
+        </div>
+
+        <div class="form-group">
+            <label for="taskModule">Course Module</label>
+            <input type="text" id="courseModule" required>
+        </div>
+
+        <div class="form-group">
+            <label for="taskDescription">Course Description</label>
+            <textarea id="courseDescription" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="taskVideo">Course Video (Max 100MB)</label>
+            <input type="file" id="taskVideo" accept="video/*" required>
+        </div>
+
+        <button type="submit">Add Course</button>
+    </form>
+
+    <div id="taskList"></div>
+
+    <div id="loadingContainer" style="display: none;">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Uploading...</div>
+    </div>
+
+    <script src="/GuruTech/Js/videoCourses.js"></script>
+</body>
+
+</html>

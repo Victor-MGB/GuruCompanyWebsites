@@ -1,12 +1,101 @@
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .navbar-toggler-icon {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 5px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-collapse {
+    display: none;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 400px;
+    background-color: black;
+    color: white;
+    z-index: 999;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+    transform: translateX(0);
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 70px;
+  }
+
+  .navbar-nav li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .nav-link {
+    color: white;
+    padding: 10px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background-color: #ffffffe0;
+    display: none;
+    /* width: 100px; */
+  }
+
+  .dropdown-menu a {
+    display: block;
+    padding: 15px 15px;
+    color: black;
+  }
+
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .navbar-toggler.collapsed .navbar-toggler-icon {
+    transform: rotate(0);
+  }
+
+  .navbar-toggler.active .navbar-toggler-icon {
+    transform: rotate(90deg);
+  }
+}
 .navcontainer {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: black;
-  padding-right: 20px;
+  padding: 10px;
   color: white;
-  /* position: fixed; */
-  /* z-index: 1; */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
 .logocontainer img {
@@ -48,13 +137,6 @@
 .nav-item:hover .dropdown-menu {
   display: block;
 }
-.navbar-nav li{
-    margin-left: 20px;
-    /* background-color: black; */
-}
-.navbar-nav ul{
-    background-color: black;
-}
 
 
 .image-container {
@@ -66,6 +148,29 @@
     width: 100%;
     /* height: 0; */
 }
+
+@media (max-width: 767px) {
+    .image-container {
+      padding: 20px;
+      
+    }
+    .image-container img{
+      height: 500px;
+    }
+    
+    h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-right:150px;
+      margin-bottom: 50px;
+    }
+    
+    p {
+      font-size: 14px;
+     /* text-align: center; */
+     margin-bottom: 80px;
+    }
+  }
 
 .content {
     position: absolute;
@@ -92,6 +197,22 @@
 .CapGuru div{
     margin-left: 15px;
 }
+
+@media (max-width: 767px) {
+    .CapGuru {
+      margin-bottom: 20px;
+    }
+    
+    .CapGuru h1 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+    
+    .CapGuru p {
+      font-size: 14px;
+    }
+  }
+
 .settingCon{
     display: flex;
     align-items: center;
@@ -122,6 +243,53 @@
     margin-right: 150px;
     height: 400px;
 }
+
+@media (max-width: 767px) {
+    .settingCon {
+      padding: 20px;
+    }
+    
+    .settingCon img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .settin {
+      margin-top: 20px;
+      text-align: left;
+    }
+    
+    .settin h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .settin p {
+      font-size: 14px;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    .crafingcon {
+      padding: 20px;
+    }
+    
+    .crafingcon img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .craftText h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .craftText p {
+      font-size: 14px;
+    }
+  }
+
 .successCon{
     display: flex;
     align-items: center;
@@ -151,15 +319,109 @@
   border-radius: 5px;
   font-size: 30px;
 }
+
+@media (max-width: 767px) {
+    .successCon {
+      padding: 20px;
+      margin-right: 200px;
+    }
+    
+    .successCon img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .sucessText h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .sucessText p {
+      font-size: 14px;
+    }
+  }
+  
 .footer{
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   background-color: black;
-  margin-top: 40px;
+  margin-top: 550px;
   width: 100%; 
-  height: 70%;}
+  height: 70%;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  width: 350px;
+  padding-bottom: 10px;
+  background-color: black;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.input-container i.fa-paper-plane {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: black;
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .input-container input{
+    background-color: #ffffff52;
+    position: relative;
+  }
+
+  .input-container i.fa-paper-plane{
+    color: black;
+  }
+
+  .footer .linkss {
+    flex-direction: column;
+  }
+
+  .other-links a{
+    margin-left: 20px;
+  }
+
+  .footer .quick-links a {
+    margin-left: 0;
+  }
+
+  .footer .download-container {
+    margin-top: 10px;
+  }
+
+  .footer .download-container h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .other-links {
+    align-items: center;
+  }
+  
+  .other-links a {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .other-links a span {
+    margin-left: 5px;
+  }
+}
+
 .meetus{
   display: flex;
   align-items: center;
@@ -180,7 +442,7 @@
 .linkss a{
   margin-bottom: 10px;
 }
-  .linkss span{
+.linkss span{
     margin-left: 40px;
 
   }
@@ -190,26 +452,44 @@
     text-decoration: none;
     color: white;
   }
-  .other-links a{
-    outline: none;
-    text-decoration: none;
-    color: white;
+  .other-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.other-links a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+
+.other-links a span {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .download-container {
+    align-items: flex-start;
+    margin-top: 30px;
   }
-  .footer input{
-    border-radius: 12px;
-    padding: 16px;
-    width: 30%;
-    background-color: #0000009f;
-    outline: none;
-    position: relative;
+  
+  .download-container h2 {
+    margin-left: 30px;
   }
-  .footer i{
-    position: absolute;
-    margin-bottom: 32%;
-    margin-left: 25%;
-    font-size: 20px;
-    color: white;
+  
+  .download-container div {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
   }
+}
+
   footer{
     display: flex;
     justify-content: space-between;
@@ -237,4 +517,24 @@
   footer span{
     color: white;
     margin-right: 140px;
+  } 
+
+  @media (max-width: 768px) {
+  footer {
+    /* align-items: flex-start; */
+    margin-top: 0;
   }
+  
+  footer p {
+    margin-left: 20px;
+  }
+  
+  footer .social {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  footer .social .social-icons a {
+    font-size: 30px;
+  }
+}

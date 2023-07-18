@@ -12,13 +12,23 @@
 
 <body>
 
-    <section class="navcontainer">
-        <div class="logocontainer">
-            <img src="/GuruTech/images/Group 2.png" alt="">
-        </div>
-    
-        <nav class="navbar navbar-expand-lg navbar-dark">
+<section class="navcontainer">
+    <div class="logocontainer">
+        <img src="/GuruTech/images/Group 2.png" alt="">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Add the Bootstrap menu icon for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/GuruTech/Html/Home.html">Home</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
                 </li>
@@ -34,15 +44,17 @@
                         <a class="dropdown-item" href="#">Sponsor our software launching</a>
                         <a class="dropdown-item" href="#">Book an appointment with our cyber security firm</a>
                         <a class="dropdown-item" href="#">Our Recent Works</a>
-                        <a class="dropdown-item" href="#">Software Developement Courses</a>
+                        <a class="dropdown-item" href="#">Software Development Courses</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Partner with Us</a>
                 </li>
             </ul>
-        </nav>
-    </section>
+        </div>
+    </nav>
+</section>
+
     <header style="text-align: center; margin-top: 30px;">
         <h1>Software Developement Courses</h1>
     </header>
@@ -283,6 +295,219 @@
 
 
 
+        <div class="course-container">
+
+            <!-- <h1 style="text-align: center;">Our Advanced and Proffessional Courses</h1> -->
+            <div class="advance">
+                <img src="/GuruTech/images/ecommerce.jpg" alt="Course Image" class="course-image" style="height: 30%;">
+                <h1 class="course-title" style="margin-top: 50px;">Lucrative E-commerce Website</h1>
+                <p class="course-description">Mastering Online Retail Strategies</p>
+                <p class="course-price">NGN 30,000</p>
+                <button class="course-enroll-button"
+                    onclick="handleEnroll('course1', 30000, `https://app.expertnaire.com/product/7673443321/7700841103`)">Enroll
+                    Now</button>
+            </div>
+
+            <div class="advance">
+                <img src="/GuruTech/images/graphics.jfif" alt="Course Image" class="course-image">
+                <h1 class="course-title">Master and Learning graphics Designs</h1>
+                <p class="course-description">Unleash Your Creative Vision: Graphic Design for the Modern World</p>
+                <p class="course-price">NGN 20,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course2', 20000, `https://app.expertnaire.com/product/7673443321/7699274312`)">Enroll Now</button>
+            </div>
+
+            <div class="advance">
+                <img src="/GuruTech/images/freelance.jfif" alt="Course Image" class="course-image">
+                <h1 class="course-title">Freelance Writting Mastery</h1>
+                <p class="course-description">Crafting Words That Captivate: Freelance Writing Mastery</p>
+                <p class="course-price">NGN 15000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course3', 15000, `https://app.expertnaire.com/product/7673443321/7699253775`)">Enroll Now</button>
+            </div>
+
+            <div class="advance">
+                <img src="/GuruTech/images/crypto.jfif" alt="Course Image" class="course-image">
+                <h1 class="course-title" style="margin-top: 40px;">Crypto Profit Kit</h1>
+                <p class="course-description">Decoding the Future of Finance: Exploring Cryptocurrency</p>
+                <p class="course-price">NGN 120,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course4', 120000,`https://app.expertnaire.com/product/7673443321/7684049179`)">Enroll Now</button>
+            </div>
+
+            <div class="advance">
+                <img src="/GuruTech/images/videoedit.jfif" alt="Course Image" class="course-image">
+                <h1 class="course-title">Graphic Design and Video Editing Combo</h1>
+                <p class="course-description">Transforming Stories Through Visual Artistry: Video Editing Essentials</p>
+                <p class="course-price">NGN 10,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course5', 10000, `https://app.expertnaire.com/product/7673443321/7682141080`)">Enroll Now</button>
+            </div>
+        </div>
+
+
+        <div class="course-container">
+        
+            <!-- <h1 style="text-align: center;">Our Advanced and Proffessional Courses</h1> -->
+            <div class="advance">
+                <img src="/GuruTech/images/europe.jpg" alt="Course Image" class="course-image" style="height: 25%;">
+                <h1 class="course-title"> Relocate to Europe using a study free route</h1>
+                <p class="course-description"> Unveiling Cultural Treasures and Inspiring Adventures</p>
+                <p class="course-price">NGN 47,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course6', 47000, `https://app.expertnaire.com/product/7673443321/7671018943`)">Enroll Now</button>
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/whatsapp sales.png" alt="Course Image" class="course-image">
+                <h1 class="course-title">WhatsApp sales blueprints</h1>
+                <p class="course-description">Unlocking Sales Potential: Leveraging WhatsApp for Business Success</p>
+                <p class="course-price">NGN 20,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course7', 20000, `https://app.expertnaire.com/product/7673443321/7669096392`)">Enroll Now</button>
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/facebook ads.jfif" alt="Course Image" class="course-image">
+                <h1 class="course-title">Facebook Ads made Easy</h1>
+                <p class="course-description">Maximizing Revenue: Mastering Facebook Ads for Business Growth</p>
+                <p class="course-price">NGN 35,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('Course8', 35000, `https://app.expertnaire.com/product/7673443321/7654953885`)">Enroll Now</button>
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/raisemoney.jpg" alt="Course Image" class="course-image" style="height: 30%;">
+                <h1 class="course-title" style="margin-top: 40px;">Raise Money when there's no Money </h1>
+                <p class="course-description">Strategies to Raise Money</p>
+                <p class="course-price">NGN 10,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course9', 10000, `https://app.expertnaire.com/product/7673443321/7618699820`)">Enroll Now</button>
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/affiliate.jpg" alt="Course Image" class="course-image">
+                <h1 class="course-title">Affiliate millionaire fastlane</h1>
+                <p class="course-description"> Unlocking the Path to Financial Freedom</p>
+                <p class="course-price">NGN 40,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course10', 40000, `https://app.expertnaire.com/product/7673443321/7627139516`)">Enroll Now</button>
+            </div>
+        </div>
+
+        <div class="course-container">
+        
+            <!-- <h1 style="text-align: center;">Our Advanced and Proffessional Courses</h1> -->
+            <div class="advance">
+                <img src="/GuruTech/images/twitter.jfif" alt="Course Image" class="course-image" style="height: 30%;">
+                <h1 class="course-title">Twitter Ghostwritting and blue print</h1>
+                <p class="course-description">Mastering Twitter Ghostwriting for Influential Impact</p>
+                <p class="course-price">NGN 25,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course11',25000, `https://app.expertnaire.com/product/7673443321/7654953112`)">Enroll Now</button>
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/gogle.png" alt="Course Image" class="course-image" style="height: 30%;">
+                <h1 class="course-title">Google lead generator</h1>
+                <p class="course-description">Generating Quality Leads the Power of Google for Effective Lead Generation</p>
+                <p class="course-price">NGN 30,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course12',30000, `https://app.expertnaire.com/product/7673443321/7640667288`)">Enroll Now</button>
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/facebook ads.jfif" alt="Course Image" class="course-image" style="height: 25%;">
+                <h1 class="course-title">new affiliate marketing Expertnaire</h1>
+                <p class="course-description">Unleashing Your Potential in the Profitable World of Affiliate Marketing</p>
+                <p class="course-price">NGN 35,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course13',35000, `https://app.expertnaire.com/product/7673443321/7654953885`)">Enroll Now</button>
+
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/affmarket.jfif" alt="Course Image" class="course-image" style="height: 20%;">
+                <h1 class="course-title" style="margin-top: 40px;">Facebook and Instagra ads </h1>
+                <p class="course-description">the Power of Facebook and Instagram Ads</p>
+                <p class="course-price">NGN 25,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course14',25000, `https://app.expertnaire.com/product/7673443321/7621541161`)">EnrollNow</button>
+
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/Life1.jpg" alt="Course Image" class="course-image" style="height: 30%;">
+                <h1 class="course-title">How to sale to millions of Nigerians</h1>
+                <p class="course-description"> Strategies for Selling to Millions of Nigerians</p>
+                <p class="course-price">NGN 280,000</p>
+                <button class="course-enroll-button"  onclick="handleEnroll('course15',280000, `https://app.expertnaire.com/product/7673443321/7644963080`)">EnrollNow</button>
+
+            </div>
+        </div>
+
+        <div class="course-container">
+        
+            <!-- <h1 style="text-align: center;">Our Advanced and Proffessional Courses</h1> -->
+            <div class="advance">
+                <img src="/GuruTech/images/profit.png" alt="Course Image" class="course-image" style="height: 39.5%;">
+                <h1 class="course-title">Digital profit college</h1>
+                <p class="course-description">Empowering Your Journey to Online Business Success</p>
+                <p class="course-price">NGN 20,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course16',20000, `https://app.expertnaire.com/product/7673443321/7618685573`)">EnrollNow</button>
+
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/tikgrowth.png" alt="Course Image" class="course-image">
+                <h1 class="course-title">Tiktok growth and lead marketting program</h1>
+                <p class="course-description">Mastering Lead Generation and Marketin</p>
+                <p class="course-price">NGN 25,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course17',25000, `https://app.expertnaire.com/product/7673443321/7598023464`)">EnrollNow</button>
+
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/marketblue.jfif" alt="Course Image" class="course-image">
+                <h1 class="course-title" style="margin-top: 45px;">Digital Marketting blue print</h1>
+                <p class="course-description">Building a Strategic Roadmap for Online Success</p>
+                <p class="course-price">NGN 30,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course18',30000, `https://app.expertnaire.com/product/7673443321/7586580751`)">EnrollNow</button>
+
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/facebookads.png" alt="Course Image" class="course-image">
+                <h1 class="course-title" style="margin-top: 40px;">Facebook ads for profit </h1>
+                <p class="course-description">Maximizing Revenue through Strategic Advertising</p>
+                <p class="course-price">NGN 15,000</p>
+                <button class="course-enroll-button"  onclick="handleEnroll('course19',15000, `https://app.expertnaire.com/product/7673443321/7565554119`)">EnrollNow</button>
+
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/smartrphone.jfif" alt="Course Image" class="course-image" style="height: 30%;">
+                <h1 class="course-title">Smart Phone Graphics Designs</h1>
+                <p class="course-description"> Unlocking Stunning Graphic Designs on Smartphones</p>
+                <p class="course-price">NGN 10,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course20',10000, `https://app.expertnaire.com/product/7673443321/7563419429`)">EnrollNow</button>
+
+            </div>
+        </div>
+
+
+        <div class="course-container">
+        
+            <!-- <h1 style="text-align: center;">Our Advanced and Proffessional Courses</h1> -->
+            <div class="advance">
+                <img src="/GuruTech/images/monetizing.jpg" alt="Course Image" class="course-image" style="height: 30%;">
+                <h1 class="course-title">Facebook and youTube Monetization</h1>
+                <p class="course-description">Monetizing Your Online Presence in Facebook and youTube </p>
+                <p class="course-price">NGN 13,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course21',13000, `https://app.expertnaire.com/product/7673443321/7528853991`)">EnrollNow</button>
+
+            </div>
+        
+            <div class="advance">
+                <img src="/GuruTech/images/$1000.png" alt="Course Image" class="course-image" style="height: 120px;">
+                <h1 class="course-title">$1000 per month income template</h1>
+                <p class="course-description">$1000 Monthly Income: Proven Strategies for Sustainable Earnings</p>
+                <p class="course-price">NGN 35,000</p>
+                <button class="course-enroll-button" onclick="handleEnroll('course22',35000, `https://app.expertnaire.com/product/7673443321/7470324803`)">EnrollNow</button>
+
+            </div>
+        </div>
+
+        
+
+
 
         <div class="animation" style="text-align: center; font-size: 40px; color: black;">
             <span>Boost your career with our Software Developement Courses </span>
@@ -292,8 +517,10 @@
 
     <div class="footer">
         <h2 style="text-align: center; color: white; font-size: 28px;">subscribe to our news letter</h2>
-        <input type="email" placeholder="Type your Email" style="color: white;">
-        <i class="fa-regular fa-paper-plane"></i>
+        <div class="input-container">
+            <input type="email" placeholder="Type your Email" style="color: white;">
+            <i class="fa-regular fa-paper-plane"></i>
+        </div>
     
         <div class="meetus">
             <div class="logo2">
@@ -310,13 +537,11 @@
                     <br> <br>
                 </div>
                 <div class="other-links">
-                    <a href="Sponsor Our Software Launching" style="margin-left: 110px;">Sponsor Our Software Launching
-                        <span style="margin-left: 80px;">></span></a><br> <br> <br>
-                    <a href="Book an Appointment" style="margin-left: 110px;">Book an Appointment <span
-                            style="margin-left: 170px;">></span></a> <br> <br> <br>
-                    <a href="Our Recent Works" style="margin-left: 110px;">Our Recent Works <span
-                            style="margin-left: 200px;">></span></a> <br> <br> <br>
+                    <a href="Sponsor Our Software Launching">Sponsor Our Software Launching<span>></span></a>
+                    <a href="Book an Appointment">Book an Appointment<span>></span></a>
+                    <a href="Our Recent Works">Our Recent Works<span>></span></a>
                 </div>
+
             </div>
         </div>
         <div class="download-container">
@@ -339,19 +564,37 @@
         <p style="margin-left: 140px;">&copy; 2023 GuruTechnology. All rights reserved.</p>
         <div class="social">
             <p>Follow Us </p>
-            <span>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook-f"></i>
+            <span style="margin-bottom: 20px;">
+                <a href="https://www.linkedin.com/company/gurutechnology-corporation/"
+                    style="list-style: none; text-decoration: none;" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com/Gurutechnology_?t=qe7YXuMzCYXsKOe24Fsb_g&s=09"
+                    style="list-style: none; text-decoration: none;" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            
+                <a href="https://www.instagram.com/gurutechnologycorp" style="list-style: none; text-decoration: none;"
+                    target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            
+                <a href="https://www.facebook.com/gurutechnologycorporation" style="list-style: none; text-decoration: none;"
+                    target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.tikok.com/gurutechnology" style="list-style: none; text-decoration: none;" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
             </span>
         </div>
     </footer>
 
+        <script src="https://js.paystack.co/v1/inline.js"></script>
+        <script src="/GuruTech/Js/CourseCreation.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="/GuruTech/Js/CourseCreation.js"></script>
 </body>
 
 </html>

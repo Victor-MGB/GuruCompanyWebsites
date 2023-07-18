@@ -17,29 +17,40 @@
         </div>
     
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/GuruTech/Html/about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/GuruTech/Html/contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Services</a>
-                    <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                        <a class="dropdown-item" href="#">Join our ICT teams</a>
-                        <a class="dropdown-item" href="#">Hire our tech team</a>
-                        <a class="dropdown-item" href="#">Sponsor our software launching</a>
-                        <a class="dropdown-item" href="#">Book an appointment with our cyber security firm</a>
-                        <a class="dropdown-item" href="#">Our Recent Works</a>
-                        <a class="dropdown-item" href="#">Software Developement Courses</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Partner with Us</a>
-                </li>
-            </ul>
+            <!-- Add the Bootstrap menu icon for mobile view -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/GuruTech/Html/Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Services</a>
+                        <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <a class="dropdown-item" href="#">Join our ICT teams</a>
+                            <a class="dropdown-item" href="#">Hire our tech team</a>
+                            <a class="dropdown-item" href="#">Sponsor our software launching</a>
+                            <a class="dropdown-item" href="#">Book an appointment with our cyber security firm</a>
+                            <a class="dropdown-item" href="#">Our Recent Works</a>
+                            <a class="dropdown-item" href="#">Software Development Courses</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partner with Us</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </section>
 
@@ -134,63 +145,90 @@
         </div>
     </section>
 
-    <div class="yourJourney">
+    <!-- <div class="yourJourney">
         <h2>Begin your journey with GuruTechnology today</h2>
         <button>I'm Interested</button>
-    </div>
+    </div> -->
     
-    <div class="footer">
-        <h2 style="text-align: center; color: white; font-size: 28px;">subscribe to our news letter</h2>
-        <input type="email" placeholder="Type your Email">
-<i class="fa-regular fa-paper-plane"></i>
-        <div class="meetus">
-            <div class="logo2">
-                <img src="/GuruTech/images/Group 2 (2).png" alt="">
-                <h3 style="color: white; font-size: 10px;">GuruTechnology</h3>
+        <div class="footer">
+            <h2 style="text-align: center; color: white; font-size: 28px;">subscribe to our news letter</h2>
+            <div class="input-container">
+                <input type="email" placeholder="Type your Email" style="color: white;">
+                <i class="fa-regular fa-paper-plane"></i>
             </div>
-            <div class="linkss">
-                <div class="quick-links">
-                    <a href="AboutUs"> &#x0026; About Us <span style="margin-left: 150px;">></span></a> <br> <br> <br>
-                    <a href="Contact Us"> &#x0026; Contact Us <span style="margin-left: 140px;">></span></a> <br> <br> <br>
-                    <a href="Hire our tech team"> &#x0026; Hire our tech team <span style="margin-left: 93px;">></span></a> <br> <br>
-                    <br>
-                    <a href="join our ICT academy"> &#x0026;join our ICT academy <span style="margin-left: 80px;">></span></a> <br>
-                    <br> <br>
+        
+            <div class="meetus">
+                <div class="logo2">
+                    <img src="/GuruTech/images/Group 2 (2).png" alt="">
+                    <h3 style="color: white; font-size: 10px;">GuruTechnology</h3>
                 </div>
-                <div class="other-links">
-                    <a href="Sponsor Our Software Launching" style="margin-left: 110px;">Sponsor Our Software Launching
-                        <span style="margin-left: 80px;">></span></a><br> <br> <br>
-                    <a href="Book an Appointment" style="margin-left: 110px;">Book an Appointment <span
-                            style="margin-left: 170px;">></span></a> <br> <br> <br>
-                    <a href="Our Recent Works" style="margin-left: 105px;">Our Recent Works <span
-                            style="margin-left: 200px;">></span></a> <br> <br> <br>
+                <div class="linkss">
+                    <div class="quick-links">
+                        <a href="AboutUs">About Us <span style="margin-left: 150px;">></span></a> <br> <br> <br>
+                        <a href="Contact Us">Contact Us <span style="margin-left: 140px;">></span></a> <br> <br> <br>
+                        <a href="Hire our tech team">Hire our tech team <span style="margin-left: 80px;">></span></a> <br> <br>
+                        <br>
+                        <a href="join our ICT academy">join our ICT academy <span style="margin-left: 60px;">></span></a> <br>
+                        <br> <br>
+                    </div>
+                    <div class="other-links">
+                        <a href="Sponsor Our Software Launching">Sponsor Our Software Launching<span>></span></a>
+                        <a href="Book an Appointment">Book an Appointment<span>></span></a>
+                        <a href="Our Recent Works">Our Recent Works<span>></span></a>
+                    </div>
+        
                 </div>
             </div>
+            <div class="download-container">
+                <h2 style="color: white; margin-left: 30px; font-size: 20px;">Get the App</h2>
+                <div>
+                    <a href="/GuruTech/images/app-release.apk" target="_blank">
+                        <img src="/GuruTech/images/Group.png" alt="Download from Play Store">
+                    </a>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="/GuruTech/images/app-release.apk" target="_blank">
+                        <img src="/GuruTech/images/App Store.png" alt="Download from App Store">
+                    </a>
+                </div>
+            </div>
+            <hr>
         </div>
-        <div class="download-container">
-            <h2 style="color: white; margin-left: 102px; font-size: 20px;">Get the App</h2>
-            <a href="/GuruTech/images/app-release.apk" target="_blank">
-                <img src="/GuruTech/images/Group.png" alt="Download from Play Store">
-            </a>
-            <a href="/GuruTech/images/app-release.apk" target="_blank">
-                <img src="/GuruTech/images/App Store.png" alt="Download from App Store">
-            </a>
-        </div>
-        <hr>
-    </div>
-    <footer>
-    
-        <p style="margin-left: 140px;">&copy; 2023 GuruTechnology. All rights reserved.</p>
-        <div class="social">
-            <p>Follow Us </p>
-            <span>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook-f"></i>
-            </span>
-        </div>
-    </footer>
+        <footer>
+        
+            <p style="margin-left: 140px;">&copy; 2023 GuruTechnology. All rights reserved.</p>
+            <div class="social">
+                <p>Follow Us </p>
+                <span style="margin-bottom: 20px;">
+                    <a href="https://www.linkedin.com/company/gurutechnology-corporation/"
+                        style="list-style: none; text-decoration: none;" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/Gurutechnology_?t=qe7YXuMzCYXsKOe24Fsb_g&s=09"
+                        style="list-style: none; text-decoration: none;" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+        
+                    <a href="https://www.instagram.com/gurutechnologycorp" style="list-style: none; text-decoration: none;"
+                        target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+        
+                    <a href="https://www.facebook.com/gurutechnologycorporation"
+                        style="list-style: none; text-decoration: none;" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.tikok.com/gurutechnology" style="list-style: none; text-decoration: none;"
+                        target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </span>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
